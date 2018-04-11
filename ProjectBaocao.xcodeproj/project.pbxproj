@@ -7,21 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E05BB6D206204E800944894 /* MultiChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB6C206204E800944894 /* MultiChartViewController.swift */; };
+		1E05BB6F2062052E00944894 /* UIColor+colorFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB6E2062052E00944894 /* UIColor+colorFromHex.swift */; };
+		1E05BB72206205AB00944894 /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB71206205AB00944894 /* ScrollableGraphView.swift */; };
+		1E05BB76206205FC00944894 /* ReferenceLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB74206205FC00944894 /* ReferenceLines.swift */; };
+		1E05BB77206205FC00944894 /* LabelPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB75206205FC00944894 /* LabelPool.swift */; };
+		1E05BB7B2062063400944894 /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB792062063300944894 /* ScrollableGraphViewDrawingDelegate.swift */; };
+		1E05BB7C2062063400944894 /* ScrollableGraphViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB7A2062063400944894 /* ScrollableGraphViewDataSource.swift */; };
+		1E05BB822062064800944894 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB7E2062064600944894 /* Plot.swift */; };
+		1E05BB832062064800944894 /* BarPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB7F2062064700944894 /* BarPlot.swift */; };
+		1E05BB842062064800944894 /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB802062064700944894 /* LinePlot.swift */; };
+		1E05BB852062064800944894 /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB812062064800944894 /* DotPlot.swift */; };
+		1E05BB892062066500944894 /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB872062066500944894 /* GraphPoint.swift */; };
+		1E05BB8A2062066500944894 /* GraphPointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB882062066500944894 /* GraphPointAnimation.swift */; };
+		1E05BB932062068D00944894 /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB8C2062068B00944894 /* FillDrawingLayer.swift */; };
+		1E05BB942062068D00944894 /* GradientDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB8D2062068B00944894 /* GradientDrawingLayer.swift */; };
+		1E05BB952062068D00944894 /* BarDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB8E2062068B00944894 /* BarDrawingLayer.swift */; };
+		1E05BB962062068D00944894 /* ReferenceLineDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB8F2062068C00944894 /* ReferenceLineDrawingView.swift */; };
+		1E05BB972062068D00944894 /* DotDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB902062068C00944894 /* DotDrawingLayer.swift */; };
+		1E05BB982062068D00944894 /* LineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB912062068C00944894 /* LineDrawingLayer.swift */; };
+		1E05BB992062068D00944894 /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05BB922062068D00944894 /* ScrollableGraphViewDrawingLayer.swift */; };
 		1E3DF09E205F4D7700453008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DF09D205F4D7700453008 /* AppDelegate.swift */; };
-		1E3DF0A0205F4D7700453008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DF09F205F4D7700453008 /* ViewController.swift */; };
 		1E3DF0A3205F4D7700453008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DF0A1205F4D7700453008 /* Main.storyboard */; };
 		1E3DF0A5205F4D7700453008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DF0A4205F4D7700453008 /* Assets.xcassets */; };
 		1E3DF0A8205F4D7700453008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DF0A6205F4D7700453008 /* LaunchScreen.storyboard */; };
+		1E714C642062114200F6FF93 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E714C632062114200F6FF93 /* CircleViewController.swift */; };
+		1E714C672062119200F6FF93 /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E714C662062119200F6FF93 /* CircleMenu.swift */; };
+		1E714C6B206211B800F6FF93 /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E714C6A206211B800F6FF93 /* CircleMenuButton.swift */; };
+		1E714C6D206211BF00F6FF93 /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E714C6C206211BF00F6FF93 /* CircleMenuLoader.swift */; };
+		1E93B2B8205F9ABF00BF3F6C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93B2B7205F9ABE00BF3F6C /* APIClient.swift */; };
+		1E93B2BB205F9ACB00BF3F6C /* Audiobook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93B2B9205F9ACA00BF3F6C /* Audiobook.swift */; };
+		1E93B2BC205F9ACB00BF3F6C /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93B2BA205F9ACB00BF3F6C /* DataStore.swift */; };
+		1E93B2BE205F9AD400BF3F6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93B2BD205F9AD400BF3F6C /* ViewController.swift */; };
+		1E93B2C3205F9C0900BF3F6C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93B2C2205F9C0900BF3F6C /* CollectionViewCell.swift */; };
+		1EEF61B6205FAE6600DD72A4 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF61B5205FAE6600DD72A4 /* ChartViewController.swift */; };
+		1EEF61B8205FBED800DD72A4 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF61B7205FBED800DD72A4 /* LineChartViewController.swift */; };
+		1F3A7FD720600FC50088B056 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A7FD620600FC50088B056 /* PieChartViewController.swift */; };
+		1F3A7FD9206026DC0088B056 /* HomeMenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A7FD8206026DC0088B056 /* HomeMenuCollectionViewController.swift */; };
+		1F3A7FDB206028EE0088B056 /* HomeMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A7FDA206028EE0088B056 /* HomeMenuCollectionViewCell.swift */; };
+		98BAE905E95A8A2C3365B115 /* Pods_ProjectBaocao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE2A6D6A55102216BE358E1 /* Pods_ProjectBaocao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E05BB6C206204E800944894 /* MultiChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiChartViewController.swift; sourceTree = "<group>"; };
+		1E05BB6E2062052E00944894 /* UIColor+colorFromHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+colorFromHex.swift"; sourceTree = "<group>"; };
+		1E05BB71206205AB00944894 /* ScrollableGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphView.swift; sourceTree = "<group>"; };
+		1E05BB74206205FC00944894 /* ReferenceLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceLines.swift; sourceTree = "<group>"; };
+		1E05BB75206205FC00944894 /* LabelPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPool.swift; sourceTree = "<group>"; };
+		1E05BB792062063300944894 /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
+		1E05BB7A2062063400944894 /* ScrollableGraphViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDataSource.swift; sourceTree = "<group>"; };
+		1E05BB7E2062064600944894 /* Plot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
+		1E05BB7F2062064700944894 /* BarPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarPlot.swift; sourceTree = "<group>"; };
+		1E05BB802062064700944894 /* LinePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinePlot.swift; sourceTree = "<group>"; };
+		1E05BB812062064800944894 /* DotPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotPlot.swift; sourceTree = "<group>"; };
+		1E05BB872062066500944894 /* GraphPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPoint.swift; sourceTree = "<group>"; };
+		1E05BB882062066500944894 /* GraphPointAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPointAnimation.swift; sourceTree = "<group>"; };
+		1E05BB8C2062068B00944894 /* FillDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillDrawingLayer.swift; sourceTree = "<group>"; };
+		1E05BB8D2062068B00944894 /* GradientDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientDrawingLayer.swift; sourceTree = "<group>"; };
+		1E05BB8E2062068B00944894 /* BarDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarDrawingLayer.swift; sourceTree = "<group>"; };
+		1E05BB8F2062068C00944894 /* ReferenceLineDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceLineDrawingView.swift; sourceTree = "<group>"; };
+		1E05BB902062068C00944894 /* DotDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotDrawingLayer.swift; sourceTree = "<group>"; };
+		1E05BB912062068C00944894 /* LineDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDrawingLayer.swift; sourceTree = "<group>"; };
+		1E05BB922062068D00944894 /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
 		1E3DF09A205F4D7700453008 /* ProjectBaocao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectBaocao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3DF09D205F4D7700453008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E3DF09F205F4D7700453008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E3DF0A2205F4D7700453008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E3DF0A4205F4D7700453008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E3DF0A7205F4D7700453008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E3DF0A9205F4D7700453008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E714C632062114200F6FF93 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		1E714C662062119200F6FF93 /* CircleMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
+		1E714C6A206211B800F6FF93 /* CircleMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
+		1E714C6C206211BF00F6FF93 /* CircleMenuLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
+		1E93B2B7205F9ABE00BF3F6C /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1E93B2B9205F9ACA00BF3F6C /* Audiobook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audiobook.swift; sourceTree = "<group>"; };
+		1E93B2BA205F9ACB00BF3F6C /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		1E93B2BD205F9AD400BF3F6C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E93B2C2205F9C0900BF3F6C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1EEF61B5205FAE6600DD72A4 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		1EEF61B7205FBED800DD72A4 /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		1F3A7FD620600FC50088B056 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
+		1F3A7FD8206026DC0088B056 /* HomeMenuCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuCollectionViewController.swift; sourceTree = "<group>"; };
+		1F3A7FDA206028EE0088B056 /* HomeMenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		21587C68B0CFF20D385A7DE4 /* Pods-ProjectBaocao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectBaocao.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectBaocao/Pods-ProjectBaocao.release.xcconfig"; sourceTree = "<group>"; };
+		CAE2A6D6A55102216BE358E1 /* Pods_ProjectBaocao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectBaocao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC42ECD97810D746A4A72F9 /* Pods-ProjectBaocao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectBaocao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectBaocao/Pods-ProjectBaocao.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +99,103 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BAE905E95A8A2C3365B115 /* Pods_ProjectBaocao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A9D56704AC9C2D02B8DE855 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC42ECD97810D746A4A72F9 /* Pods-ProjectBaocao.debug.xcconfig */,
+				21587C68B0CFF20D385A7DE4 /* Pods-ProjectBaocao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E05BB6B206204D000944894 /* MultiChart */ = {
+			isa = PBXGroup;
+			children = (
+				1E05BB6E2062052E00944894 /* UIColor+colorFromHex.swift */,
+				1E05BB6C206204E800944894 /* MultiChartViewController.swift */,
+			);
+			path = MultiChart;
+			sourceTree = "<group>";
+		};
+		1E05BB702062059700944894 /* MultiChartClass */ = {
+			isa = PBXGroup;
+			children = (
+				1E05BB8B2062067600944894 /* Drawing */,
+				1E05BB7D2062063900944894 /* Plots */,
+				1E05BB782062062000944894 /* Protocols */,
+				1E05BB73206205CF00944894 /* Reference */,
+				1E05BB71206205AB00944894 /* ScrollableGraphView.swift */,
+			);
+			path = MultiChartClass;
+			sourceTree = "<group>";
+		};
+		1E05BB73206205CF00944894 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				1E05BB75206205FC00944894 /* LabelPool.swift */,
+				1E05BB74206205FC00944894 /* ReferenceLines.swift */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		1E05BB782062062000944894 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1E05BB7A2062063400944894 /* ScrollableGraphViewDataSource.swift */,
+				1E05BB792062063300944894 /* ScrollableGraphViewDrawingDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1E05BB7D2062063900944894 /* Plots */ = {
+			isa = PBXGroup;
+			children = (
+				1E05BB862062064C00944894 /* Animation */,
+				1E05BB7F2062064700944894 /* BarPlot.swift */,
+				1E05BB812062064800944894 /* DotPlot.swift */,
+				1E05BB802062064700944894 /* LinePlot.swift */,
+				1E05BB7E2062064600944894 /* Plot.swift */,
+			);
+			path = Plots;
+			sourceTree = "<group>";
+		};
+		1E05BB862062064C00944894 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1E05BB872062066500944894 /* GraphPoint.swift */,
+				1E05BB882062066500944894 /* GraphPointAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		1E05BB8B2062067600944894 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				1E05BB8E2062068B00944894 /* BarDrawingLayer.swift */,
+				1E05BB902062068C00944894 /* DotDrawingLayer.swift */,
+				1E05BB8C2062068B00944894 /* FillDrawingLayer.swift */,
+				1E05BB8D2062068B00944894 /* GradientDrawingLayer.swift */,
+				1E05BB912062068C00944894 /* LineDrawingLayer.swift */,
+				1E05BB8F2062068C00944894 /* ReferenceLineDrawingView.swift */,
+				1E05BB922062068D00944894 /* ScrollableGraphViewDrawingLayer.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
 		1E3DF091205F4D7700453008 = {
 			isa = PBXGroup;
 			children = (
 				1E3DF09C205F4D7700453008 /* ProjectBaocao */,
 				1E3DF09B205F4D7700453008 /* Products */,
+				1A9D56704AC9C2D02B8DE855 /* Pods */,
+				88CF28EA19572245E7D2287B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +210,109 @@
 		1E3DF09C205F4D7700453008 /* ProjectBaocao */ = {
 			isa = PBXGroup;
 			children = (
+				1E714C652062117F00F6FF93 /* CircleMenuClass */,
+				1E714C622062111400F6FF93 /* CircleMenu */,
+				1E05BB702062059700944894 /* MultiChartClass */,
+				1E05BB6B206204D000944894 /* MultiChart */,
+				1E93B2C1205F9BDC00BF3F6C /* Cell */,
+				1E93B2BF205F9B7E00BF3F6C /* View */,
+				1E93B2B6205F9AAF00BF3F6C /* Controller */,
+				1E93B2B5205F9A9300BF3F6C /* Model */,
+				1E93B2B4205F9A8900BF3F6C /* Networking */,
 				1E3DF09D205F4D7700453008 /* AppDelegate.swift */,
-				1E3DF09F205F4D7700453008 /* ViewController.swift */,
-				1E3DF0A1205F4D7700453008 /* Main.storyboard */,
 				1E3DF0A4205F4D7700453008 /* Assets.xcassets */,
-				1E3DF0A6205F4D7700453008 /* LaunchScreen.storyboard */,
 				1E3DF0A9205F4D7700453008 /* Info.plist */,
 			);
 			path = ProjectBaocao;
+			sourceTree = "<group>";
+		};
+		1E714C622062111400F6FF93 /* CircleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1E714C632062114200F6FF93 /* CircleViewController.swift */,
+			);
+			path = CircleMenu;
+			sourceTree = "<group>";
+		};
+		1E714C652062117F00F6FF93 /* CircleMenuClass */ = {
+			isa = PBXGroup;
+			children = (
+				1E714C69206211AE00F6FF93 /* New Group */,
+				1E714C68206211A000F6FF93 /* CircleMenuLoader */,
+				1E714C662062119200F6FF93 /* CircleMenu.swift */,
+			);
+			path = CircleMenuClass;
+			sourceTree = "<group>";
+		};
+		1E714C68206211A000F6FF93 /* CircleMenuLoader */ = {
+			isa = PBXGroup;
+			children = (
+				1E714C6C206211BF00F6FF93 /* CircleMenuLoader.swift */,
+			);
+			path = CircleMenuLoader;
+			sourceTree = "<group>";
+		};
+		1E714C69206211AE00F6FF93 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1E714C6A206211B800F6FF93 /* CircleMenuButton.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1E93B2B4205F9A8900BF3F6C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1E93B2B7205F9ABE00BF3F6C /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1E93B2B5205F9A9300BF3F6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E93B2B9205F9ACA00BF3F6C /* Audiobook.swift */,
+				1E93B2BA205F9ACB00BF3F6C /* DataStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E93B2B6205F9AAF00BF3F6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E93B2BD205F9AD400BF3F6C /* ViewController.swift */,
+				1EEF61B5205FAE6600DD72A4 /* ChartViewController.swift */,
+				1EEF61B7205FBED800DD72A4 /* LineChartViewController.swift */,
+				1F3A7FD620600FC50088B056 /* PieChartViewController.swift */,
+				1F3A7FD8206026DC0088B056 /* HomeMenuCollectionViewController.swift */,
+				1F3A7FDA206028EE0088B056 /* HomeMenuCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1E93B2BF205F9B7E00BF3F6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DF0A6205F4D7700453008 /* LaunchScreen.storyboard */,
+				1E3DF0A1205F4D7700453008 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E93B2C1205F9BDC00BF3F6C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1E93B2C2205F9C0900BF3F6C /* CollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		88CF28EA19572245E7D2287B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE2A6D6A55102216BE358E1 /* Pods_ProjectBaocao.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +322,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E3DF0AC205F4D7700453008 /* Build configuration list for PBXNativeTarget "ProjectBaocao" */;
 			buildPhases = (
+				23B1B768F792660B71B5CCA6 /* [CP] Check Pods Manifest.lock */,
 				1E3DF096205F4D7700453008 /* Sources */,
 				1E3DF097205F4D7700453008 /* Frameworks */,
 				1E3DF098205F4D7700453008 /* Resources */,
+				4B7616B3D59D9095AB2F8477 /* [CP] Embed Pods Frameworks */,
+				727FD81A072D9258271AC904 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +385,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23B1B768F792660B71B5CCA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectBaocao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B7616B3D59D9095AB2F8477 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProjectBaocao/Pods-ProjectBaocao-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectBaocao/Pods-ProjectBaocao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		727FD81A072D9258271AC904 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectBaocao/Pods-ProjectBaocao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E3DF096205F4D7700453008 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E3DF0A0205F4D7700453008 /* ViewController.swift in Sources */,
+				1E05BB932062068D00944894 /* FillDrawingLayer.swift in Sources */,
+				1E05BB842062064800944894 /* LinePlot.swift in Sources */,
+				1E93B2BB205F9ACB00BF3F6C /* Audiobook.swift in Sources */,
+				1E05BB6D206204E800944894 /* MultiChartViewController.swift in Sources */,
+				1EEF61B8205FBED800DD72A4 /* LineChartViewController.swift in Sources */,
+				1EEF61B6205FAE6600DD72A4 /* ChartViewController.swift in Sources */,
+				1E714C642062114200F6FF93 /* CircleViewController.swift in Sources */,
+				1E05BB77206205FC00944894 /* LabelPool.swift in Sources */,
+				1E05BB962062068D00944894 /* ReferenceLineDrawingView.swift in Sources */,
+				1E714C672062119200F6FF93 /* CircleMenu.swift in Sources */,
+				1E05BB982062068D00944894 /* LineDrawingLayer.swift in Sources */,
+				1E05BB992062068D00944894 /* ScrollableGraphViewDrawingLayer.swift in Sources */,
+				1E93B2BC205F9ACB00BF3F6C /* DataStore.swift in Sources */,
+				1E05BB942062068D00944894 /* GradientDrawingLayer.swift in Sources */,
+				1E93B2C3205F9C0900BF3F6C /* CollectionViewCell.swift in Sources */,
+				1E05BB76206205FC00944894 /* ReferenceLines.swift in Sources */,
 				1E3DF09E205F4D7700453008 /* AppDelegate.swift in Sources */,
+				1F3A7FD9206026DC0088B056 /* HomeMenuCollectionViewController.swift in Sources */,
+				1E05BB6F2062052E00944894 /* UIColor+colorFromHex.swift in Sources */,
+				1E05BB972062068D00944894 /* DotDrawingLayer.swift in Sources */,
+				1E05BB892062066500944894 /* GraphPoint.swift in Sources */,
+				1F3A7FD720600FC50088B056 /* PieChartViewController.swift in Sources */,
+				1E05BB832062064800944894 /* BarPlot.swift in Sources */,
+				1E05BB72206205AB00944894 /* ScrollableGraphView.swift in Sources */,
+				1E05BB8A2062066500944894 /* GraphPointAnimation.swift in Sources */,
+				1E05BB822062064800944894 /* Plot.swift in Sources */,
+				1E714C6D206211BF00F6FF93 /* CircleMenuLoader.swift in Sources */,
+				1F3A7FDB206028EE0088B056 /* HomeMenuCollectionViewCell.swift in Sources */,
+				1E93B2BE205F9AD400BF3F6C /* ViewController.swift in Sources */,
+				1E05BB952062068D00944894 /* BarDrawingLayer.swift in Sources */,
+				1E93B2B8205F9ABF00BF3F6C /* APIClient.swift in Sources */,
+				1E714C6B206211B800F6FF93 /* CircleMenuButton.swift in Sources */,
+				1E05BB7B2062063400944894 /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
+				1E05BB852062064800944894 /* DotPlot.swift in Sources */,
+				1E05BB7C2062063400944894 /* ScrollableGraphViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +613,11 @@
 		};
 		1E3DF0AD205F4D7700453008 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC42ECD97810D746A4A72F9 /* Pods-ProjectBaocao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HSV675J94;
 				INFOPLIST_FILE = ProjectBaocao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SPCIT.ProjectBaocao;
@@ -286,9 +629,11 @@
 		};
 		1E3DF0AE205F4D7700453008 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21587C68B0CFF20D385A7DE4 /* Pods-ProjectBaocao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HSV675J94;
 				INFOPLIST_FILE = ProjectBaocao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SPCIT.ProjectBaocao;
